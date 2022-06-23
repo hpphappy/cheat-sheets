@@ -6,7 +6,7 @@
 git init
 ```
 
-#### Undo `git init`
+#### To undo `git init`
 
 ```
 rm -rf .git
@@ -24,8 +24,24 @@ rm -rf .git
 The .gitignore should work now!
 
 ---
-#### Remove the last commit while keeping the changes
+#### To remove the last commit while keeping the changes
 
 ```
 git reset HEAD^
+```
+---
+#### To pull a specific file from the other branch
+
+To pull "wanted-file" from "source-branch" to "target-branch", first make sure that "other-branch" is up to date locally by:
+
+```
+git checkout source-branch
+git pull origin source-branch
+```
+
+Then checkout target-branch
+
+```
+git checkout target-branch
+git checkout source-branch wanted-file   # git checkout <branch> <path>
 ```
