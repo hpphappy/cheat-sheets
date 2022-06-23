@@ -32,14 +32,14 @@ git reset HEAD^
 ---
 #### To pull a specific file from the other branch
 
-To pull "wanted-file" from "source-branch" to "target-branch", first make sure that "other-branch" is up to date locally by:
+To copy "wanted-file" from "source-branch" to "target-branch", first make sure that "other-branch" is up to date locally by:
 
 ```
 git checkout source-branch
 git pull origin source-branch
 ```
 
-Then checkout the target-branch, pull the wanted-file from the source-branch
+Then checkout the target-branch, and copy the wanted-file from the source-branch
 
 ```
 git checkout target-branch
