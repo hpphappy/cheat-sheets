@@ -39,7 +39,7 @@ git checkout source-branch
 git pull origin source-branch
 ```
 
-Then checkout target-branch
+Then checkout the target-branch, pull the wanted-file from the source-branch
 
 ```
 git checkout target-branch
