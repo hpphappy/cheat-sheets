@@ -24,3 +24,8 @@ rm -rf .git
 The .gitignore should work now!
 
 ---
+#### Remove the last commit while keeping the changes
+
+```
+git reset HEAD^
+```
