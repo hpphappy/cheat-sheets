@@ -24,7 +24,7 @@ From insert mode to command mode: type Esc or press the escape key
 ```
 :set number
 ```
-
+---
 #### To move cursor `in command mode`
 
 ##### Type 1:  left, right, up, down
@@ -44,12 +44,13 @@ From insert mode to command mode: type Esc or press the escape key
 `gg` Go to the top of the file 
 `700G` Jump to line number 700 
 
-##### Type 2: beginning or end of a line
+
+##### Type 3: beginning or end of a line
 
 `$`  Move cursor to the end of current line
 `0`  (zero) Move cursor to the beginning of current line 
 
-
+---
 #### To quit Vim `in command mode`
 
 `:wq`		Save the file and quit Vim.
