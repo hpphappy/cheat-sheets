@@ -41,19 +41,23 @@ From insert mode to command mode: type Esc or press the escape key
 ##### Type 2: beginning, end or specific line of a file
 
 `G` Go to the bottom of the file
+
 `gg` Go to the top of the file 
+
 `700G` Jump to line number 700 
 
 
 ##### Type 3: beginning or end of a line
 
 `$`  Move cursor to the end of current line
+
 `0`  (zero) Move cursor to the beginning of current line 
 
 ---
 #### To quit Vim `in command mode`
 
 `:wq`		Save the file and quit Vim.
+
 `:q!`		Quit Vim without saving the changes to the file.
 
 
